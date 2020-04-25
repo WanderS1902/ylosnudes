@@ -1,0 +1,97 @@
+body {background:#000000;
+    color:#fff
+        
+}
+h5 {font-size: 30px}
+/* em y rem son unidades de medida
+todos los colores se escriben en ingles*/
+div {border: 5px solid #fff; }
+h6 {font-size: 35px;}
+p {font-size: 20px;}
+li {font-size: 20px;}
+div img{float: left;} 
+a {font-size: 17px;}
+h6,h1,h2,h3,h4,h5{font-family: "times news roman";}
+td {font-size: 16px;
+font-weight: bold;}
+h4{font-size: 25px;}
+h1{text-align: center;}
+a:hover{text-decoration: underline;
+font-size: 30px;
+}
+a:visited{text-decoration: line-through;}
+h2,h3,h4,h5{text-align: center;}
+footer p:hover{font-size: 25px;}
+.x{border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+   
+} /*es para ponerle bordes a las imagenes*/
+.menu li{
+    display: inline-block;
+}
+.menu li a { 
+    padding: 20px 100px;
+    display: inline-block;
+}
+.menu li a:hover {
+    color: red;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+ol{
+    text-align: center;
+    list-style-type: none;
+}
+table {
+    border: 1px solid #fff;
+    
+}
+table td {
+    border: 1px solid #fff;
+    padding: 5px;
+}
+table tr:hover {
+    background: red;
+}
+table td:hover{
+    background: blue;
+}
+/*form {
+    width: 20%;
+    border: 1px solid #fff;
+    margin: 15px
+    padding:20px;
+}/*
+/*labe1 {
+    display: block;
+    
+}/*
+/*input, textarea{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+input: focus,textearea{
+    border: 1px #fff;
+}
+textarea{
+    resize: vertical;
+    max-height: 100px;
+    min-height: 10px;
+}
+hearder, .main, footer {
+    background: #000;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    color: #fff;
+}
+footer{
+    text-align: center;
+}
